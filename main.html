@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo web weather</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .text-decoration {
+            text-decoration: underline;
+            text-decoration-color: yellow;
+        }
+
+        .none-decoration {
+            text-decoration: none;
+        }
+
+        .white {
+            color: whitesmoke;
+        }
+
+        .disabled-tag {
+            pointer-events: none;
+        } 
+    </style>
+</head>
+<body>
+    <div class="input-search">
+        <div>
+            <span style="color: #989daa;">Kết quả cho:</span><span class="title-notication"></span><span style="color: #989daa;">-</span><span class="country"></span>
+        </div>
+        <div style="margin-left: 20px;">
+            <input class="search" type="text" placeholder="">
+        </div>
+    </div>
+    <div id="main">
+            <div class="image-weather">
+                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="">
+            </div>
+            <div class="temp">
+                <div>
+                    <span class="number">26</span>
+                </div>    
+                <div class="temperature">
+                    <span id="changeTempC" class="white disabled-tag ">°C</span>
+                    <span class="border"></span>
+                    <span id="changeTempF">°F</span>
+                </div>
+            </div>
+            <div class="infor">
+                <div>
+                    Khả năng có mưa : <span>10%</span>
+                </div>
+                <div>
+                    Độ ẩm : <span class="humidity">56%</span>
+                </div>
+                <div>
+                    Gió : <span class="wind">13km/h</span>
+                </div>
+            </div>
+            <div class="notification">
+                <span style="font-size: 20px;color: #d7dbe5;">Thời tiết</span>
+                <div class="time">Thứ năm</div>
+                <div class="clouds">Mây rải rác</div>
+            </div>
+    </div>
+    <div class="footer">
+        <div id="show-temp" class="text-decoration">
+            <span>Nhiệt độ</span>
+        </div>
+        <span class="border"></span>
+        <div id="show-rain">
+            <span>Lượng mưa</span>
+        </div>
+        <span class="border"></span>
+        <div id="show-wind">
+            <span>Gió</span>
+        </div>
+    </div>
+    <div class="img-footer">
+        <div id="img-temp">
+            <img src="image/1.jpg" alt="Ảnh Nhiệt độ" class="nhietdo">
+        </div>
+        <div id="img-rain" class="hidden">
+            <img src="image/2.jpg" alt="Ảnh lượng mưa" class="nhietdo">
+        </div>
+        <div id="img-wind" class="hidden">
+            <img src="image/3.jpg" alt="Ảnh gió" class="nhietdo">
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+#main {
+    /* margin: 200px auto; */
+    display: flex;
+    justify-content:center;
+    /* background-color: aquamarine; */
+}
+
+body {
+    background-color: black;
+}
+
+.input-search {
+    margin: 0;
+    padding-top: 200px;
+    display: flex;
+    justify-content:center;
+   
+}
+
+.search {
+    border-radius: 18px;
+    width: 300px;
+    height: 20px;
+}
+
+.main-layout {
+    margin: 0px auto;
+}
+
+.temp {
+    display: flex;
+}
+
+.image-weather {
+    float: left;
+}
+
+.infor, .notification {
+    color: #989daa;
+} 
+
+.number {
+    float: left;
+    font-size: 60px;
+    margin-left: 15px;
+    color: #989daa;
+}
+
+.temperature {
+    margin-left: 100px;
+    padding-top: 10px;
+    margin-left: 15px;
+    color: #989daa;
+}
+
+.infor, .notification {
+    padding-top: 10px;
+}
+
+.infor {
+    margin-left: 20px;
+}
+
+.notification { 
+    margin-left: 100px;
+}
+
+.border {
+    border-left: 1px solid #989daa;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.title-notication, .country {
+    color: #d7dbe5;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.footer {
+    color: #989daa;
+    display: flex;
+    padding-left: 370px;
+    font-size: 16px;
+}
+
+.footer:hover {
+    cursor: pointer;
+}
+
+.img-footer {
+    padding-left: 370px;
+    padding-top: 10px;
+}
+
+.nhietdo {
+    width: 308px;
+}
